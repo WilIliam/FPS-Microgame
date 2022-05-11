@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7655095426451682928}
   - component: {fileID: 7655095426451682943}
   m_Layer: 0
-  m_Name: VFX_LazerSparksRed
+  m_Name: VFX_LazerHealing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
