@@ -776,23 +776,23 @@ MonoBehaviour:
   ShootType: 1
   ProjectilePrefab: {fileID: 3601520037849974073, guid: 962bb6a757a5fc8429010378e06b0f94,
     type: 3}
-  DelayBetweenShots: 0.1
-  BulletSpreadAngle: 0
+  DelayBetweenShots: 100
+  BulletSpreadAngle: 100
   BulletsPerShot: 1
-  RecoilForce: 1
-  AimZoomRatio: 1
+  RecoilForce: 2
+  AimZoomRatio: 0
   AimOffset: {x: 0, y: 0, z: 0}
-  AutomaticReload: 1
-  HasPhysicalBullets: 0
-  ClipSize: 30
+  AutomaticReload: 0
+  HasPhysicalBullets: 1
+  ClipSize: 1
   ShellCasing: {fileID: 0}
   EjectionPort: {fileID: 0}
-  ShellCasingEjectionForce: 2
+  ShellCasingEjectionForce: 1.2
   ShellPoolSize: 1
-  AmmoReloadRate: 0.5
-  AmmoReloadDelay: 0.5
-  MaxAmmo: 100
-  AutomaticReleaseOnCharged: 0
+  AmmoReloadRate: 10
+  AmmoReloadDelay: 10
+  MaxAmmo: 5
+  AutomaticReleaseOnCharged: 1
   MaxChargeDuration: 2
   AmmoUsedOnStartCharge: 1
   AmmoUsageRateWhileCharging: 2
@@ -1444,7 +1444,7 @@ PrefabInstance:
     - target: {fileID: 802008062829010448, guid: 04df6363b21362a46bcfbb6b371a8671,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 802008062829010448, guid: 04df6363b21362a46bcfbb6b371a8671,
         type: 3}
@@ -1454,7 +1454,7 @@ PrefabInstance:
     - target: {fileID: 802008062829010448, guid: 04df6363b21362a46bcfbb6b371a8671,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 802008062829010448, guid: 04df6363b21362a46bcfbb6b371a8671,
         type: 3}
@@ -1469,7 +1469,7 @@ PrefabInstance:
     - target: {fileID: 802008062829010448, guid: 04df6363b21362a46bcfbb6b371a8671,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 802008062829010448, guid: 04df6363b21362a46bcfbb6b371a8671,
         type: 3}
