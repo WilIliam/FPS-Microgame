@@ -186,29 +186,29 @@ MonoBehaviour:
     CrosshairColor: {r: 1, g: 0, b: 0, a: 1}
   WeaponRoot: {fileID: 1505447205160222267}
   WeaponMuzzle: {fileID: 8334323006752503713}
-  ShootType: 1
+  ShootType: 0
   ProjectilePrefab: {fileID: 3601520037849974073, guid: 689abaea45c4ab043a5e068506f63af5,
     type: 3}
-  DelayBetweenShots: 1
-  BulletSpreadAngle: 0
-  BulletsPerShot: 1
+  DelayBetweenShots: 2
+  BulletSpreadAngle: 3
+  BulletsPerShot: 7
   RecoilForce: 1
   AimZoomRatio: 0.5
   AimOffset: {x: 0, y: 0, z: 0}
   AutomaticReload: 1
   HasPhysicalBullets: 1
-  ClipSize: 1
+  ClipSize: 2
   ShellCasing: {fileID: 0}
   EjectionPort: {fileID: 0}
   ShellCasingEjectionForce: 2
   ShellPoolSize: 1
   AmmoReloadRate: 1
-  AmmoReloadDelay: 2
+  AmmoReloadDelay: 1
   MaxAmmo: 4
   AutomaticReleaseOnCharged: 0
-  MaxChargeDuration: 2
-  AmmoUsedOnStartCharge: 1
-  AmmoUsageRateWhileCharging: 2
+  MaxChargeDuration: 1
+  AmmoUsedOnStartCharge: 0
+  AmmoUsageRateWhileCharging: 1
   WeaponAnimator: {fileID: 0}
   MuzzleFlashPrefab: {fileID: 748781637555137343, guid: 9f671b22f25370048a18fb1f821294ec,
     type: 3}
